@@ -168,6 +168,14 @@ a.boldLink {
     white-space: nowrap
 }
 
+.skills-list-sm {
+    list-style: none;
+    font-size: var(--fs-body);
+    font-weight: var(--fw-reg);
+    white-space: nowrap;
+    text-align: center;
+}
+
 /* header */
 
 nav {
@@ -374,6 +382,7 @@ nav {
         opacity 250ms linear;
     max-width: 500px;
     max-height: 800px;
+    padding-right: 30px;
 }
 
 .portfolio__item:focus {
