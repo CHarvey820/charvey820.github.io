@@ -374,6 +374,7 @@ nav {
 .portfolio__item {
 
     overflow: hidden;
+    margin: 0rem 3rem;
 }
 
 .portfolio__img {
@@ -382,7 +383,7 @@ nav {
         opacity 250ms linear;
     max-width: 500px;
     max-height: 800px;
-    padding-right: 30px;
+
 }
 
 .portfolio__item:focus {

@@ -132,6 +132,10 @@
         <!-- Portfolio item 1 -->
         <div class="portfolio">
 
+            <a href="pages/shetaxi.html" class="portfolio__item">
+                <img src="img/shetaxi-homepage.png" class="portfolio__img" alt="">
+            </a>
+
             <a href="pages/mfg.html" class="portfolio__item">
                 <img src="img/site1_edited.jpg" class="portfolio__img" alt="">
             </a>
@@ -152,7 +156,10 @@
 
     </section>
 
-    <footer class="footer">Caitlin Harvey - 2024
+    <footer class="footer">Caitlin Harvey - <span id="current-year"></span>
+        <script>
+          document.getElementById("current-year").innerHTML = new Date().getFullYear();
+        </script>
         <ul class="social-list">
             <li class="social-list__item"><a href="https://www.linkedin.com/in/caitlin-harvey-0b5752225/"
                     target="_blank" class="social-list__link"><i class="fab fa-linkedin"></i></a></li>
