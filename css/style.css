@@ -64,6 +64,21 @@ img {
     max-width: 100%;
 }
 
+.scrollingGif{
+    max-width: 600px;
+    margin-left: 25%;
+    padding: 10px;
+    background-color: var(--clr-dark);
+    border-radius: 5px;
+}
+
+@media (max-width: 900px) {
+    .scrollingGif{
+        max-width: 300px;
+        margin-left: 0;
+    }
+}
+
 strong {
     font-weight: var(--fw-bold)
 }
@@ -159,6 +174,20 @@ a.boldLink {
 .section__subtitle--intro-page {
     margin-bottom: none;
     padding: none;
+}
+
+.sectionContainer{
+    background-color: #b1fff2;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.sectionContainerDk{
+    background-color: var(--clr-dark);
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
 }
 
 .skills-list {
@@ -400,7 +429,34 @@ nav {
 
 .carousel{
     border: solid black;
+    background-color: var(--clr-dark);
 }
+
+.carousel-right {
+    margin-right: 5%;
+}
+
+.carousel-img{
+    max-width: 800px;
+}
+
+@media (max-width:900px){
+    .sectionContainer{
+        justify-content: center;
+    }
+
+    .sectionContainerDk{
+        justify-content: center;
+    }
+
+    .carousel-right {
+        margin-right: 0;
+    }
+    
+    .carousel-img{
+        max-width: 500px;
+    }
+    }
 
 /* footer */
 
